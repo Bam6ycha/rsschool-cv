@@ -24,9 +24,9 @@ And here is my solution :
       result.push(input[i])}  
   };return result};  
   ```    
-  ####	Aducation   
+####	Aducation   
   Only self-aducation.  
-  #####	English level     
+#####	English level     
   Someting between A1 and A2.  
   
   In my self aducation i always use this quote:  
