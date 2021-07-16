@@ -1,5 +1,5 @@
 #   A  little bit about myself
-My fullname is **Dmitrii Kosarev**. I am 28 years old.  ![self_photo]("self_photo.jpg")   
+My fullname is **Dmitrii Kosarev**. I am 28 years old.  ![self_photo](self_photo.jpg)   
 I live in Minsk, Belarus.  
 My phone number is **+375 (25) 510 - 43 -17.**  
 My e-mail adress is **kosarev-d@mail.ru**   
