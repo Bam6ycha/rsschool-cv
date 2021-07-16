@@ -14,7 +14,7 @@ I`v a little experience in:
 - JS.
  
 I can create a simple, static site with using HTML and SCC. What about my JS skills? I train it in CW ever day. I have a huge progress in it. 
-Here you can see an exeple : ![CW](https://cloud.mail.ru/public/LfQg/QCQqBgHGs);  
+Here you can see an exeple : ![CW](CW_exemple);  
 And here is my solution :   
 ```var uniqueInOrder = function (iterable) {  
   const input = Array.isArray(iterable) ? iterable : iterable.split('');  
