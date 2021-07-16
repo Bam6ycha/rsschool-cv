@@ -16,17 +16,17 @@ I`v a little experience in:
 I can create a simple, static site with using HTML and SCC. What about my JS skills? I train it in CW ever day. I i'v a huge progress in it. 
 Here you can see an exeple : ![CW](\C:\Users\Alina\Desktop\VSCode\rsschool-cv\СW_exemple.jpg);  
 And here is my solution :   
-```var uniqueInOrder = function (iterable) {
-  const input = Array.isArray(iterable) ? iterable : iterable.split('');
-  let result = [];
-  for (let i = 0; i < input.length; i++) {
-     if(result[result.length - 1] !== input[i]){
-      result.push(input[i])}
-  };return result};
+```var uniqueInOrder = function (iterable) {  
+  const input = Array.isArray(iterable) ? iterable : iterable.split('');  
+  let result = [];  
+  for (let i = 0; i < input.length; i++) {  
+     if(result[result.length - 1] !== input[i]){  
+      result.push(input[i])}  
+  };return result};  
   ```  
-  ####	Aducation  
+  ####	Aducation   
   Only self-aducation.  
-  #####	English level  
+  #####	English level     
   Someting between A1 and A2.  
   
   In my self aducation i always use this quote:  
