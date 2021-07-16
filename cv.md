@@ -1,5 +1,5 @@
 #   A  little bit about myself
-My fullname is **Dmitrii Kosarev**. I am 28 years old.  ![self_photo](\https://raw.githubusercontent.com/Bam6ycha/rsschool-cv/gh-pages/self_photo.jpg)   
+My fullname is **Dmitrii Kosarev**. I am 28 years old.  ![self_photo](https://cloud.mail.ru/public/LfQg/QCQqBgHGs)   
 I live in Minsk, Belarus.  
 My phone number is **+375 (25) 510 - 43 -17.**  
 My e-mail adress is **kosarev-d@mail.ru**   
@@ -13,8 +13,8 @@ I`v a little experience in:
 - SCC 
 - JS.
  
-I can create a simple, static site with using HTML and SCC. What about my JS skills? I train it in CW ever day. I i'v a huge progress in it. 
-Here you can see an exeple : ![CW](\C:\Users\Alina\Desktop\VSCode\rsschool-cv\СW_exemple.jpg);  
+I can create a simple, static site with using HTML and SCC. What about my JS skills? I train it in CW ever day. I have a huge progress in it. 
+Here you can see an exeple : ![CW](https://cloud.mail.ru/public/LfQg/QCQqBgHGs);  
 And here is my solution :   
 ```var uniqueInOrder = function (iterable) {  
   const input = Array.isArray(iterable) ? iterable : iterable.split('');  
@@ -23,7 +23,7 @@ And here is my solution :
      if(result[result.length - 1] !== input[i]){  
       result.push(input[i])}  
   };return result};  
-  ```  
+  ```    
   ####	Aducation   
   Only self-aducation.  
   #####	English level     
