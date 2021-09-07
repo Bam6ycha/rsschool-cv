@@ -4,117 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <title>My CV</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Dmitriy Kosarev</title>
   </head>
-
-  <body class="flex-container2">
-    <header>
-      <h1>A little bit about myself</h1>
-      <q>The result nullifies the severity of the process</q>
+  <body>
+    <div class="header__wrapper">
+		
+    <header class="header__content__wrapper header_content_decoration">
+      <div class="user__name"><p class="text__content">Dmitriy Kosarev</p> </div>
+      <nav>
+        <ul class="navigation">
+          <li class="header_navigation">Job</a></li>
+          <li class="header_navigation">Skills</li>
+          <li class="header_navigation">Aducation</li>
+          <li class="header_navigation">English</li>
+          </ul>
+      </nav>
+		</div>
     </header>
-    <nav>
-      <ul class="flex-container3">
-        <li><a href="#h2">Job objective and work experience</a></li>
-        <li><a href="#h3">Skills</a></li>
-        <li><a href="#h4">Aducation</a></li>
-        <li><a href="#h5">English level</a></li>
-      </ul>
-    </nav>
     <main>
-      <img class="self_photo" src="self_photo.jpg" alt="self_photo" />
+			<section>
+      <div class="main__wrapper">
+				<h1 class="headlink__decoration">About myself</h1>
+        <div class="main_content_wrapper main__content__decoration">
+          <div class="about_my_self_wrapper">
+            <div class="img">
+              <img class = "self_photo" src="./css/img/self_photo.jpg" alt="self_photo" width="240px" height="320px"/>
+            </div>
+            
+            <div class="job_and_study">
+              <p class="text__information">ICU and anesthetist, JS/Front-end developer in the future</p>
+            </div>
+            <ul class="contacts">
+              <li>
+                <span><a href="https://github.com/Bam6ycha"><img src="./css/img/github.png" alt="github" /></a></span>
+              </li>
+              <li>
+                <span><a href="https://www.instagram.com/bam6ycha/?hl=en"><img src="./css/img/ins.png" alt="instagram" /></a></span>
+              </li>
+							<li><a  href="tel:+375 (25) 510 - 43 -17.">(25)510-43-17</a></li>
+							<li><a href="mailto:kosarev-d@mail.ru">kosarev-d@mail.ru</a></li>
+            </ul>
+          </div>
+					<div class="text_information_wrapper">
+						<p class = "text__information">My fullname is <strong>Dmitrii Kosarev.</strong>  I am 28 years old. </p>
+					<br> 
+							<p class="text__information">I am living in Minsk, Belarus.</p>   
+							<br> 
+							<p class="text__information">I am sociable, frendly, purposeful, self-rigorous.</p> 
+							<br>
 
-      <p>
-        My fullname is <strong>Dmitrii Kosarev.</strong> I am 28 years old. I
-        live in Minsk, Belarus.
-      </p>
-      <ul>
-        <li>
-          My phone number is
-          <a href="tel:+375(25)510-43-17">+375(25)510-43-17.</a>
-        </li>
-        <li>
-          My e-mail adress is
-          <a href="mailto:kosarev-d@mail.ru" target="_blank"
-            >kosarev-d@mail.ru</a
-          >
-        </li>
-      </ul>
-      <p>
-        I am sociable, frendly, purposeful, self-rigorous.I am work as a doctor
-        of ICU(intensive care unit) and anesthesiologist form 2017. But in one
-        moment i decided to change my life fundamentally. And now i am working
-        hard on my programming skills.
-      </p>
-      <section>
-        <h2 id="h2">Job objective and work experience</h2>
-        <p>I would like to become a <strong>Frond-end/JS</strong> developer.</p>
-        <p>
-          I have no experience in this case, but my purposeful,self-rigorous
-          will help me to become an exlellent specialist in this area
-        </p>
-      </section>
-      <section>
-        <h3 id="h3">Skills</h3>
-        <p>I`v a little experience in:</p>
-        <ul>
-          <li><abbr title="HyperText Markup Language">HTML</abbr></li>
-          <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
-          <li><abbr title="JavaScript">JS</abbr></li>
-        </ul>
-        <p>
-          I can create a simple, static site with using HTML and CSS. What about
-          my JS skills? I train it in <abbr title="CodeWars">CW</abbr> ever day.
-          I have a huge progress in it.
-        </p>
-        <figure class="flex-container1">
-          <img class="flex-item" src="СW_exemple.jpg" alt=" CW_exemple" />
-          <figcaption>Here you can see an exeple</figcaption>
-        </figure>
-
-        <p>And here is my solution :</p>
-        <div class="flex-container">
-          <pre>
-				<code>
-		var uniqueInOrder = function (iterable) {
-			const input = Array.isArray(iterable) ? iterable : iterable.split('');
-			let result = [];
-			for (let i = 0; i &lt;input.length; i++) {
-				if (result[result.length - 1] !== input[i]) {
-					result.push(input[i]);
-				}
-			}; return result
-		};
-			</code>
-		</pre>
+							<p class="text__information">I am work as a doctor of ICU(intensive care unit) and anesthesiologist form 2017. But in one moment i decided to change my life fundamentally. And now i am working hard on my programming skills.</p>
+					</div>
+				</div>
+				<div class="content_headlink_wrapper">
+				<h2 class ="headlink__decoration"id="h2">Job objective and work experience</h2>
+				<p class="text__information">I would like to become a <strong>Front-end/JS developer.</strong> I have no experience in this case, but my purposeful,self-rigorous will help me to become an exlellent specialist in this area.</p>
+				<h3 class="headlink__decoration" id="h3">Skills</h3>
+				<ul><li>HTML</li>
+				<li>CSS</li>
+			<li>JS</li></ul>
+			<p class="text__information">I can create a simple, static site with using HTML and SCC. What about my JS skills? I train it in CW ever day. I have a huge progress in it.</p>
+			 <p class="text__information">My recent projects:</p>
+			 <article>
+				 <div class="recent_projects_wrapper">
+					 <div class="project_description">
+						 <h5 class="projects">Museum-landing page</h5>
+						 <p class="projects">Made with HTML,CSS flex-box</p>
+						 <div><a  href="https://rolling-scopes-school.github.io/bam6ycha-JSFEPRESCHOOL/museum/"><img class="project_image" src="./css/img/museum1.jpg" alt="louvre" width="320px" height="240px"></a></div>
+						</div>
+					 <div class="project_description">
+					 <h5 class="projects">Clock</h5>
+					 <p class="projects">Made with HTML,CSS,JS</p>
+					 <div> <a  href="https://rolling-scopes-school.github.io/bam6ycha-JSFEPRESCHOOL/js30clock/"> <img class="project_image" src="./css/img/rol.png" alt="js30clock" width="320px" height="240px"></a></div>
+					</div>
+				 </div>
+				 <h5>Codewars</h5>
+			 </article>
+			</div>
         </div>
-      </section>
-      <section>
-        <h4 id="h4">Aducation</h4>
-        <p>Only self-aducation. Online resources.</p>
-      </section>
-      <section>
-        <h5 id="h5">English level</h5>
-        <p>Someting between A1 and A2.</p>
-      </section>
+			</section>
+    
+			
+			 
     </main>
-
-    <footer>
-      <a href="https://github.com/Bam6ycha" target="_blank">GitHub</a>
-      <a href="https://rs.school/js/" target="_blank"
-        ><img class="logo" src="rs_school_js.svg" alt="rs-school_label"
-      /></a>
-      <p>
-        This is my <abbr title="Curriculum vitae">CV</abbr>, witch created in
-        2021
-      </p>
-      <address>Dmitrii Kosarev</address>
-    </footer>
   </body>
 </html>

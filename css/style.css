@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__wrapper {
+  background-color: #8f1c2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__content__wrapper {
+  width: 50%;
+  max-width: 1440px;
+  color: wheat;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  min-height: 40px;
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header_navigation {
+  width: 50%;
+  max-width: 1440px;
+}
+.main__wrapper {
+  width: 100%;
+  background-color: #a9a9a9;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.headlink__decoration {
+  margin: 0px;
+  text-align: center;
+  color: black;
+}
+.main_content_wrapper {
+  width: 50%;
+  max-width: 1440px;
+
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.img {
+  width: 240px;
+  height: 320px;
+}
+.about_my_self_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contacts {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  justify-content: space-between;
+  align-content: center;
+}
+a {
+  color: black;
+  text-decoration: transparent;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+a:active {
+  color: #8f1c2a;
+}
+a:visited {
+  color: #8f1c2a;
+}
+li {
+  width: 50%;
+}
+.text_information_wrapper {
+  width: 100%;
+  display: inline-block;
+  flex: 1 1 240px;
+}
+.text__information {
+  margin: 5px 0px;
+}
+.content_headlink_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 1440px;
+  margin: auto;
+}
+.recent_projects_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-width: 320px;
+  justify-content: space-evenly;
+}
+.project_description {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project_description:hover .projects {
+  text-decoration: underline;
+  transition: all 0.2s linear;
+}
