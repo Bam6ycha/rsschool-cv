@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/agate.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Dmitriy Kosarev</title>
@@ -15,13 +18,13 @@
     <div class="header__wrapper">
 		
     <header class="header__content__wrapper header_content_decoration">
-      <div class="user__name"><p class="text__content">Dmitriy Kosarev</p> </div>
+      <p class="text__content header_text_content">Dmitriy Kosarev</p>
       <nav>
         <ul class="navigation">
-          <li class="header_navigation">Job</a></li>
-          <li class="header_navigation">Skills</li>
-          <li class="header_navigation">Aducation</li>
-          <li class="header_navigation">English</li>
+          <li class="header_navigation"><a class ="header-navigation-link" href="#h2">Job</a></li>
+          <li class="header_navigation"><a href="#h3" class="header-navigation-link">Skills</a> </li>
+          <li class="header_navigation"><a href="#h4" class="header-navigation-link">Aducation</a> </li>
+          <li class="header_navigation"> <a href="#h5" class="header-navigation-link">English</a> </li>
           </ul>
       </nav>
 		</div>
@@ -46,8 +49,8 @@
               <li>
                 <span><a href="https://www.instagram.com/bam6ycha/?hl=en"><img src="./css/img/ins.png" alt="instagram" /></a></span>
               </li>
-							<li><a  href="tel:+375 (25) 510 - 43 -17.">(25)510-43-17</a></li>
-							<li><a href="mailto:kosarev-d@mail.ru">kosarev-d@mail.ru</a></li>
+							<li><a class = "contact-information-link" href="tel:+375 (25) 510 - 43 -17.">(25)510-43-17</a></li>
+							<li><a class = "contact-information-link" href="mailto:kosarev-d@mail.ru">kosarev-d@mail.ru</a></li>
             </ul>
           </div>
 					<div class="text_information_wrapper">
@@ -73,24 +76,71 @@
 			 <article>
 				 <div class="recent_projects_wrapper">
 					 <div class="project_description">
-						 <h5 class="projects">Museum-landing page</h5>
+						 <h6 class="projects">Museum-landing page</h6>
 						 <p class="projects">Made with HTML,CSS flex-box</p>
-						 <div><a  href="https://rolling-scopes-school.github.io/bam6ycha-JSFEPRESCHOOL/museum/"><img class="project_image" src="./css/img/museum1.jpg" alt="louvre" width="320px" height="240px"></a></div>
+						 <div><a  class = "project-link"href="https://rolling-scopes-school.github.io/bam6ycha-JSFEPRESCHOOL/museum/"><img class="project_image" src="./css/img/museum1.jpg" alt="louvre" width="320px" height="240px"></a></div>
 						</div>
 					 <div class="project_description">
-					 <h5 class="projects">Clock</h5>
+					 <h6 class="projects">Clock</h6>
 					 <p class="projects">Made with HTML,CSS,JS</p>
-					 <div> <a  href="https://rolling-scopes-school.github.io/bam6ycha-JSFEPRESCHOOL/js30clock/"> <img class="project_image" src="./css/img/rol.png" alt="js30clock" width="320px" height="240px"></a></div>
+					 <div> <a  class = "project-link" href="https://rolling-scopes-school.github.io/bam6ycha-JSFEPRESCHOOL/js30clock/"> <img class="project_image" src="./css/img/rol.png" alt="js30clock" width="320px" height="240px"></a></div>
 					</div>
 				 </div>
-				 <h5>Codewars</h5>
+				 <h6 class ="headlink__decoration">Codewars</h6>
+				 <p class="text__information">Description:<i>Get the next prime number! You will get a numbern (>= 0) and your task is to find the next prime number.Make sure to optimize your code: there will numbers tested up to about 10^12.</i></p>
+				 <pre class="code_exemple"><code>
+My solution:
+function isPrime(num) {
+if (num &lt;= 3) return num &gt; 1;
+if (num % 2 === 0 
+|| num % 3 === 0) return false;
+let count = 5;
+while (Math.pow(count, 2) &lt;= num) 
+{
+if (num % count === 0 
+|| num % (count + 2) === 0) 
+return false;
+count += 6;
+}
+return true;
+}
+function nextPrime(n){
+if (n % 2 !== 0 
+|| n === 2) {
+n += 1;
+}
+for (let i = n; i &lt; n + 100; i++) {
+if (isPrime(i)) {
+	return i;
+	}
+}
+}
+				</code></pre>
+				<h4 class="headlink__decoration" id="h4">Aducation</h4>
+			 <p class="text__information">Only self-study. In my self-study i am always use this:
+
+				<q>The result nullifies the severity of the process</q></p>
+			 <h5 class="headlink__decoration" id="h5"> English</h5>
+			 <p class="text__information"> Something between A1 and A2.</p>
 			 </article>
 			</div>
-        </div>
-			</section>
-    
-			
+		</section>
+	</div>
+</main>
+	<div class="footer_wrapper">
+	<footer class="footer">
+		<div class="wrapper_footer_content">
+			<p class="text__information">© 2021 by Dmitriy Kosarev</p>
+			<div class="footer_contact_links">
+				<ul class="footer-links">
+					<li class="footer-links__items"><a class="footer-links__ancor" href="https://github.com/Bam6ycha"><img src="./css/img/github.png" alt="github" width="20px" height="20px"></a></li>
+					<li class="footer-links__items"><a class="foote-links__ancor" href="https://www.instagram.com/bam6ycha/?hl=en"> <img src="./css/img/ins.png" alt="instagram" width="20px" height="20px"></a></li>
+					<li class="footer-links__items"><a class="foote-links__ancor" href="https://rs.school/js/"> <img src="./css/img/rs.svg " alt="rs_school_logo" width="50px" height="20px"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
 			 
-    </main>
   </body>
 </html>
